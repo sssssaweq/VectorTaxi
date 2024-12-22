@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши функции</title>
+    <link rel="stylesheet" href="func.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <img  class="t-i t-i-crs" src="../img/taxi-icon.svg" alt="">
+        <p class="name-company" ><span class="v-yellow">V</span>ector</p>
+
+        <div class="nav">
+            <a class="anav" href="../index.html">ГЛАВНАЯ</a>
+            <a class="anav" href="../info/info.html">О НАС</a>
+            <a class="anav" href="../autopark/autopark.html">АВТОПАРК И ТАРИФЫ</a>
+            <a class="anav" href="../func/func.html">ФУНКЦИИ</a>
+            <a class="anav" href="../contacts/contacts.html">КОНТАКТЫ</a>
+        </div>
+       
+        <button class="btn-1"><a class="ordc" href="#ordcar">ЗАКАЗАТЬ ТАКСИ</a></button>
+
+    </header>
+    <div id="func" class="price-calculator">
+        <h1 class="text-price">Рассчитайте <span class="yellowpreim"> стоимость</span> вашей поездки</h1>
+        <form id="priceForm">
+            <label class="class-price" for="carType">Выберите класс автомобиля:</label>
+            <select id="carType" name="carType">
+              <option value="economy-price">Эконом</option>
+              <option value="comfort-price">Комфорт</option>
+              <option value="business-price">Бизнес</option>
+            </select>
+      
+            <label class="class-price" for="distance">Введите расстояние (км):</label>
+            <input type="number" id="distance" name="distance" min="1" required>
+      
+            <button type="button" id="calculateButton" class="button-price">Рассчитать стоимость</button>
+          </form>
+          
+          <div id="result"></div>
+    </div>
+
+
+    <div id="ordcar" class="ordtaxi">
+        <div class="name-ord-taxi">
+            <h1 class="ordtax">Вызвать <span class="yellowpreim">такси</span></h1>
+        </div>
+        <p class="input-taxi">Введите адрес:</p>
+        <div class="btn-ord-taxi">
+            
+            <input placeholder="Адрес" type="Your location">
+        </div>
+        <p class="input-taxi">Введите класс автомобиля</p>
+
+
+        <select id="carType" name="carType">
+            <option value="economy-price">Эконом</option>
+            <option value="comfort-price">Комфорт</option>
+            <option value="business-price">Бизнес</option>
+          </select>
+
+        <div class="buy">
+            <p class="text-buy">Способ оплаты</p>
+            <select name="Buy w" id="SwitchBuy">
+                <option value="">Наличными</option>
+                <option value="">Картой на месте</option>
+                <option value="">Онлайн</option>
+                
+                
+            </select>
+        </div>
+        <div class="add">
+            <p class="add-text">Дополнительные пожелания</p>
+            <input class="add-input" type="text">
+        </div>
+
+        <div class="btnn1">
+            
+            <button class="btn-3" id="noti"><a class="ordc3" href="#ordcar">ВЫЗВАТЬ</a></button>
+        </div>
+     
+    </div>
+    <footer class="end" id="contacts">
+        <div class="soc">
+            <p class="name-soc">Следите за нами в социальных сетях</p>
+            <div class="href-soc">
+                
+                <a class="decor-soc1" href="https://vk.com"><img src="../img/vk-svgrepo-com (1).svg" alt=""></a>
+                <a class="decor-soc" href="https://www.youtube.com/"><img src="../img/youtube-168-svgrepo-com.svg" alt=""></a>
+                <a class="decor-soc" href="https://web.telegram.org/k/"><img src="../img/telegram-svgrepo-com.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="e-mail">
+            <p class="name-email">Email:</p>
+            <p class="email">vectortaxi@mail.com</p>
+            
+        </div>
+        <div class="numberphone">
+            <p class="numbername">Номер:</p>
+            <p class="phone">+123123123</p>
+        </div>
+    </footer>
+
+    <script src="animations-func.js"></script>
+    <script src="calculate-func.js"></script>
+</body>
+</html>

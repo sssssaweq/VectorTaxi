@@ -1,0 +1,433 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+
+    margin:0;
+    margin-top: 120px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.v-yellow{
+    color:rgb(109, 109, 29);
+}
+header{
+
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0.3);
+    background-color: white;
+    
+
+    
+
+    
+
+
+
+
+}
+
+.t-i{    
+    width: 60px;
+    height: 60px;
+    margin-left:5%;
+    rotate:0;
+    margin-bottom: auto;
+    margin-top:auto;
+    
+    
+    
+}
+
+.t-i-crs{
+    transition: 1s;
+}
+
+.t-i-crs:hover{
+    cursor: pointer;
+    transition: 1s;         
+    rotate: 360deg;
+
+    
+}
+
+
+.name-company{
+    margin:0;
+    font-size: 41px;
+
+    margin-bottom: auto;
+    margin-top:auto;
+    transition: 1s;
+    cursor:pointer
+    
+
+}
+.name-company:hover{
+    font-size: 45px;
+    transition: 1s;
+}
+
+
+.anav{
+    text-decoration: none;
+    color:black;
+    margin-right: 50px;
+    transition: 0.3s;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+.nav{
+    margin-left:auto;
+   
+    margin-top:auto;
+    margin-bottom: auto;
+    
+
+}  
+
+.anav:hover{
+    transition: 0.3s;
+    font-size: 24px;
+    color:rgb(196, 114, 14);
+}
+
+.ordc{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 0.9em 2.3em;
+    margin: -2em;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.ordc:hover{
+    transition: 0.5s;
+    color: #c0bd11;
+    
+
+}
+.btn-1{
+    background: none;
+    border-color:black;
+
+    width: 260px;
+    height: 56px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+
+}
+
+.btn-1:hover{
+   
+
+
+    
+    background-color: #4a4947;
+
+    
+    transition: 0.5s;
+
+
+}
+.price-calculator {
+    padding: 20px;
+    max-width: 100%;
+    margin: 10% auto 0 auto;
+    background: #ece7e7;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  select, input {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .button-price {
+    display: flex;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px auto 0px auto;
+ 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-price{
+    font-size: 60px;
+    width: 100%;
+
+    text-align: center;
+}
+.class-price{
+    text-align: center;
+}
+.name-ord-taxi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-ord-taxi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordtax{
+    font-size: 60px;
+}
+
+.input-taxi{
+    text-align: center;
+    margin:0;
+    font-size: 24px;
+}
+.btn-ord-taxi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-buy{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+input{
+    margin:0;
+    padding:0;
+    margin-bottom: 1%;
+    width: 30%;
+    height: 36px;
+    text-align: center;
+    text-decoration:overline;
+    
+}
+.add-text{
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    margin: 0;
+}
+input {
+    border: 1px solid #000000; 
+    border-radius: 8px; 
+
+    background: #DDDDDD !important; 
+    outline: none; 
+    height: 34px; 
+    width: 600px; 
+    color: #000000; 
+    font-size: 24px;
+    font-family:"Philosopher", sans-serif; 
+   
+ }
+
+input:focus {
+    color: #000000;
+    border: 3px solid #76885B
+}
+select, input {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  select{
+    font-size: 20px;
+    font-family:"Philosopher" ;
+}
+.add-input{
+    height: 200px;
+}
+.btn-3{
+    background: none;
+    border-color:black;
+
+    width: 260px;
+    height: 56px;
+    margin-top:auto;
+    margin-bottom: auto;
+
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+
+}
+
+.btn-3:hover{
+   
+
+
+    
+    background-color: rgb(0, 0, 0);
+
+    
+    transition: 0.5s;
+
+
+}
+.ordc3{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em 5em;
+    margin: -2em;
+    color:black;
+    text-decoration: none;
+
+
+}
+.ordc3:hover{
+    transition: 0.5s;
+    color: yellow;
+    opacity: 0.8;
+
+}
+.btnn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.end{
+    display: flex;
+    margin:0;
+    padding: 0;
+    background-color:#8eaccd;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.name-soc{
+    padding:0;
+    margin:0;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left:5%;
+}
+.soc{
+    width: 600px;
+    text-align: center;
+
+}
+
+.href-soc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decor-soc{
+    
+    margin-left:100px;
+}
+
+.e-mail{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    width: 600px;
+
+
+}
+.name-email{
+    padding: 0;
+    margin: 0;
+}
+.email{
+    padding: 0;
+    margin: 0;
+}
+
+.numberphone{
+    
+    width: 600px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.numbername{
+    padding: 0;
+    margin: 0;
+}
+.phone{
+    padding: 0;
+    margin: 0;
+
+}
+.yellowpreim{
+    
+    color:rgb(155, 155, 0);
+   
+    
+}
+
+.yellowpreim{
+    color: black;
+    transition: all 0.5s;
+}
+.yellowpreim.yellowpreim-show{
+
+    color:rgb(155, 155, 0);
+}
